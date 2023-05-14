@@ -1,0 +1,92 @@
+.singup {
+  display: flex;
+  flex-direction: column;
+}
+.singup_top {
+  width: 100%;
+  height: 100px;
+  background-image: url(../../assets/Purple-lines.svg);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+}
+.singup__buttom__right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.email__filed {
+  border: 4px solid #74b4b3;
+  border-radius: 83px;
+  background: transparent;
+  width: 50%;
+  padding: 10px 20px;
+  color: rgba(177, 186, 237, 0.68);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+.email__filed:focus {
+  outline: none;
+  border: 5px solid #5efaf7;
+}
+.email__filed::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 138% */
+
+  letter-spacing: 0.1em;
+
+  color: rgba(177, 186, 237, 0.68);
+}
+.singup__buttom {
+  display: flex;
+}
+.singup_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  color: #52c1b9;
+  padding: 30px;
+}
+
+.signup__btn {
+  background: linear-gradient(
+    270.53deg,
+    #604dbc 14.72%,
+    #38a1bb 77.9%,
+    #38a1bb 84.87%
+  );
+  box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02);
+  border-radius: 31px;
+  padding: 20px 80px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 138% */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social__icons {
+  background: linear-gradient(
+    270.53deg,
+    #604dbc 14.72%,
+    #38a1bb 77.9%,
+    #38a1bb 84.87%
+  );
+  border-radius: 83px;
+  color: white;
+  padding: 20px;
+}

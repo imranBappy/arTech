@@ -1,0 +1,51 @@
+.header__heading {
+  margin-top: 100px;
+  max-width: 607px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 90%;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.header__title {
+  margin-top: 50px;
+  max-width: 458px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  color: #52c1b9;
+}
+.live__btn {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+  border: 2px solid #52c1b9;
+  border-radius: 40px;
+  background: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #52c1b9;
+  padding: 10px 30px;
+}
+.icon_dot {
+  width: 15px;
+  height: 15px;
+  background: #52c1b9;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__heading {
+    font-size: 6rem;
+  }
+}

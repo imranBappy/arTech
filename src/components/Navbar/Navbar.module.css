@@ -1,0 +1,94 @@
+.navbar {
+  height: 130px;
+}
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.logo__wrapper {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.nav__wrapper {
+  margin-left: 100px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navlink {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.navlink__active {
+  color: #52c1b9;
+}
+.signup__btn {
+  background: linear-gradient(
+    270.53deg,
+    #604dbc 14.72%,
+    #38a1bb 77.9%,
+    #38a1bb 84.87%
+  );
+  box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02);
+  border-radius: 31px;
+  padding: 20px 50px;
+}
+
+/* responsive */
+
+.menu__container {
+  display: none;
+}
+
+.menu_icon {
+  /* margin-top: 100px; */
+  height: 36px;
+  width: 36px;
+  align-self: end;
+  z-index: 2;
+}
+.menu__nav__wrapper {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  background: linear-gradient(360deg, #604dbc77.9%, #080809b0 84.87%);
+  list-style: none;
+  position: absolute;
+  transition: all 0.5s ease-in;
+  top: -300px;
+  padding: 30px 10px;
+  gap: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .nav__wrapper {
+    display: none;
+  }
+  .menu__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu__nav__wrapper {
+    display: flex;
+  }
+  .menu__nav__wrapper__active {
+    top: 120px;
+  }
+  .navlink {
+    border-bottom: 1px solid #604dbc77;
+    width: 100%;
+    display: block;
+    padding: 5px;
+  }
+  .signup__btn {
+    padding: 10px;
+  }
+}
